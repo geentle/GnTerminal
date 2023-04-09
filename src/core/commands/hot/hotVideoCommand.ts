@@ -9,8 +9,8 @@ import { getBilibiliHotList } from '@/api/bilibili'
  */
 const hotVideoCommand: CommandType = {
     command: 'hotvideo',
-    name: '热榜',
-    desc: '随机bilibili热榜视频',
+    name: '视频热榜',
+    desc: 'bilibili热榜视频',
     alias: ['video'],
     options: [],
     args: [],

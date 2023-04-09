@@ -8,8 +8,8 @@ import { ParsedOptions } from 'getopts'
  */
 const hotCommand: CommandType = {
     command: 'hot',
-    name: '热榜',
-    desc: '查看网易云音乐热榜',
+    name: '音乐热榜',
+    desc: '网易云音乐热榜',
     alias: [],
     options: [],
     args: [

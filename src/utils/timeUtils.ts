@@ -6,7 +6,7 @@ const secondFormatter = (second: number) => {
     let mm = Math.floor(second / 60) % 60
     let HH = Math.floor(second / (60 * 60))
 
-    return `${HH === 0 ? '' : HH + ':'}${(mm + ':').padStart(2, '0')}${(
+    return `${HH === 0 ? '' : HH + ':'}${(mm + '').padStart(2, '0') + ':'}${(
         ss + ''
     ).padStart(2, '0')}`
 }
